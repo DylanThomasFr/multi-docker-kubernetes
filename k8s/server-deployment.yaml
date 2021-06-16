@@ -29,10 +29,9 @@ spec:
             - name: PGPORT
               value: '5432'
             - name: PGDATABASE
-              value: postgress
+              value: postgres
             - name: PGPASSWORD
               valueFrom:
                 secretKeyRef:
                   name: pgpassword
                   key: PGPASSWORD
-
